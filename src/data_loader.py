@@ -18,3 +18,16 @@ def load_data(file_path):
     print("\n")
     
     return df
+
+'''
+Purpose: Loads the raw dataset from data/spam_ham_dataset.csv.
+'''
+
+'''
+Role: Cleans the dataset by removing missing values.
+Displays the dataset distribution (spam vs. ham) in a Markdown-like table for easy visualization.
+'''
+
+'''
+Dependencies: Works independently but provides the cleaned DataFrame (df) as input to preprocess.py and other modules.
+'''

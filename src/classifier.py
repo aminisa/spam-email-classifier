@@ -21,3 +21,16 @@ def train_naive_bayes():
     print(classification_report(y_test, y_pred))
 
     return nb_classifier
+
+'''
+Purpose: Combines core functionality for training and evaluating the model.
+'''
+
+'''    
+Role: Handles the training process (similar to train.py).
+Outputs classification metrics after training.
+'''
+
+'''
+Dependencies: Integrates preprocessing steps from preprocess.py.
+'''

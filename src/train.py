@@ -21,3 +21,17 @@ def train_model():
 
 if __name__ == "__main__":
     train_model()
+
+'''
+Purpose: Trains the Naive Bayes classifier on the preprocessed data.
+'''
+
+'''
+Role: Uses data_loader.py to load the dataset. Calls preprocess.py to preprocess the data. Fits the MultinomialNB model on the training set.
+Saves the trained model and vectorizer as spam_classifier.pkl for reuse.
+'''
+
+'''
+Dependencies: Relies on data_loader.py and preprocess.py to prepare the data.
+Saves outputs to the models folder for downstream tasks.
+'''

@@ -18,3 +18,19 @@ def evaluate_model():
 
 if __name__ == "__main__":
     evaluate_model()
+
+'''
+Purpose: Evaluates the performance of the trained model.
+'''
+
+'''
+Role: Reloads the dataset using data_loader.py.
+Preprocesses the data using preprocess.py.
+Loads the saved model from spam_classifier.pkl and evaluates it on the test set.
+Outputs metrics such as precision, recall, F1-score, and accuracy to quantify the model's performance.
+'''
+
+'''
+Dependencies: Uses spam_classifier.pkl from train.py.
+Relies on data_loader.py and preprocess.py for input data preparation.
+'''

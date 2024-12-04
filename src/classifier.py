@@ -15,7 +15,9 @@ def train_naive_bayes():
     y_pred = nb_classifier.predict(X_test)
 
     print("Accuracy:", accuracy_score(y_test, y_pred))
+    print('\n')
     print("Classification Report:")
+    print('\n')
     print(classification_report(y_test, y_pred))
 
     return nb_classifier

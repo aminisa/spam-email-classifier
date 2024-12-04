@@ -17,7 +17,7 @@ def train_model():
     with open('models/spam_classifier.pkl', 'wb') as f:
         pickle.dump((model, vectorizer), f)
     
-    print("Model training complete and saved.")
+    print("Model training complete and saved.\n")
 
 if __name__ == "__main__":
     train_model()
